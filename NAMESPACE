@@ -1,0 +1,3 @@
+useDynLib(overconf-boot, .registration=TRUE)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
